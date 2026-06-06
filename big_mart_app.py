@@ -19,7 +19,7 @@ if page == 'Data Analysis':
        st.header('Dataset Describtion')
        st.markdown('''This dataset contains information about products sold across different Big Mart outlets.
                      The goal is to predict **Item Outlet Sales** based on product and store characteristics.''')
-       df = pd.read_csv('D:/Data/Final_Project/model_big_mart.csv')
+       df = pd.read_csv('model_big_mart.csv')
        st.subheader('Column Description')
        st.markdown('''
        - Item_Weight: Weight of the product.
